@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 ;  
 
-const URL = process.env.DATABASE
+const URL = `mongodb+srv://harshdb:fmJBz93Z7GAkH4YW@cluster0.xhqmld1.mongodb.net/Data?retryWrites=true&w=majority`
 
 
 
