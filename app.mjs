@@ -29,7 +29,7 @@ app.use(express.urlencoded({ extended: true }));
 
 //set 'credentials: true' to pass --> headers, cookies, etc to browser/frontend
 app.use(cors({
-    origin: [`https://Data-Visualization-Dashboard.netlify.app`],
+    origin: [`https://data-visualization-dashboard-mern.netlify.app`],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
 }))
